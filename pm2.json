@@ -2,8 +2,7 @@
   "apps": [
     {
       "name": "anticorona-homepage",
-      "script": "npm",
-      "args": "run start-production"
+      "script": "./index.js"
     }
   ]
 }

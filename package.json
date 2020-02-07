@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "autoprefixer": "^9.5.1",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
     "tailwindcss": "^1.0"
   },
   "devDependencies": {
