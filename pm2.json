@@ -2,7 +2,7 @@
   "apps": [
     {
       "name": "anticorona-homepage",
-      "script": "./index.js"
+      "script": "index.js"
     }
   ]
 }
