@@ -1,4 +1,5 @@
 {
+  "homepage": "https://x-dream.tech/app-landing/anti-coronavirus",
   "scripts": {
     "serve": "cross-env NODE_ENV=development concurrently \"postcss public/tailwind.css -o public/build/tailwind.css --watch\"  \"live-server ./public\"",
     "development": "cross-env NODE_ENV=development postcss public/tailwind.css -o public/build/tailwind.css",
