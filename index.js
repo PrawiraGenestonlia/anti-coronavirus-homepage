@@ -4,9 +4,10 @@ const app = express();
 
 app.disable('x-powered-by');
 app.use(express.static(path.join(__dirname, './public')));
+app.use("/app-landing/anti-coronavirus/", express.static(path.join(__dirname, './public')));
 
 app.get('*', function (req, res) {
-  res.sendFile(path.join(__dirname, './public', 'index.html'));
+  res.sendFile(path.join(__dirname, './public', '/index.html'));
 });
 
 app.listen(
