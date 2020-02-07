@@ -5,7 +5,7 @@
     "development": "cross-env NODE_ENV=development postcss public/tailwind.css -o public/build/tailwind.css",
     "production": "cross-env NODE_ENV=production postcss public/tailwind.css -o public/build/tailwind.css",
     "start": "npm run serve",
-    "start-production": "set PUBLIC_URL=https://x-dream.tech/app-landing/anti-coronavirus && npm run production && serve -l 4002 ./public"
+    "start-production": "set PUBLIC_URL=https://x-dream.tech/app-landing/anti-coronavirus npm run production"
   },
   "dependencies": {
     "autoprefixer": "^9.5.1",
